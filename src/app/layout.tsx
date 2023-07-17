@@ -4,8 +4,8 @@ import Providers from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Watermelon",
-  description: "The personal stat tracker application",
+  title: "Papaya",
+  description: "A recipe site",
 };
 
 export default function RootLayout({

@@ -7,21 +7,21 @@ import { authOptions } from "@/pages/api/auth/[...nextauth]";
 import NavBarMenu from "./NavBarMenu";
 
 const NavBar = () => {
-	return (
-		<>
-			<Box bg={"gray.800"} px={4}>
-				<Flex h={16} align={"center"} justify={"space-between"}>
-					<Box>Watermelon</Box>
+  return (
+    <>
+      <Box bg={"gray.800"} px={4}>
+        <Flex h={16} align={"center"} justify={"space-between"}>
+          <Box>Papaya</Box>
 
-					<Flex align={"center"}>
-						<Stack direction={"row"} spacing={7}>
-							<NavBarMenu />
-						</Stack>
-					</Flex>
-				</Flex>
-			</Box>
-		</>
-	);
+          <Flex align={"center"}>
+            <Stack direction={"row"} spacing={7}>
+              <NavBarMenu />
+            </Stack>
+          </Flex>
+        </Flex>
+      </Box>
+    </>
+  );
 };
 
 export default NavBar;
